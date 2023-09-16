@@ -533,7 +533,8 @@ ul.row {
   display: table;
   clear: both;
 }
-.col-* {
+[class^="col-"] {
   float: left;
+  padding: o.5rem;
 }
 
